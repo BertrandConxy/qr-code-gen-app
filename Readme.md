@@ -2,7 +2,7 @@
 
 # QR code generator
 
-> QR code generator is terminal app built with nodejs that helps to create a QR code from the data provided either as image or directly in terminal.
+> QR code generator is terminal app built with nodejs that helps to create a QR code from the data provided either as image or directly in terminal
 
 <br/>
 
