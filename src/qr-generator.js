@@ -16,7 +16,7 @@ const generateQRCodeImage = (data, name) => {
   })
 }
 
-const generateQRCodeTerminal = (data, name) => {
+const generateQRCodeTerminal = (data) => {
   // Generate the QR code to console
   qr.toString(data, optionsTerminal, (err, code) => {
     if (err) throw err
