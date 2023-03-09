@@ -15,8 +15,8 @@ const main = async () => {
 
     switch (parseInt(choice, 10)) {
       case 1:
-        const image = prompt('Enter image: ')
-        generateQRCodeImage(text, image)
+        const imageName = prompt('Enter image file name: ')
+        generateQRCodeImage(text, imageName)
         choice = 0
         break
       case 2:
